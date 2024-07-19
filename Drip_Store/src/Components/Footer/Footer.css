@@ -1,0 +1,101 @@
+footer {
+    display: flex;
+    background-color:#1f1f1f ;
+    /* height: 400px; */
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.container-1 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+/* ------Footer conteudo 1------ */
+.container-logo {
+    position: relative;
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    top: 60px;
+    left: 80px;
+    
+}
+
+.text-container{
+    position: relative;
+    display: flex;
+    color: #fffefe;
+    width: 300px;
+    gap: 5px;
+    top: 80px;
+    left: 80px;    
+}
+
+.icons-sociais {
+    display: flex;
+    position: relative;
+    gap: 35px;
+    top: 120px;
+    left: 80px;   
+}
+
+/* ------Footer conteudo 2------ */
+.container-2 {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 4rem;
+    gap: 4rem;
+}
+
+.container-contato {
+    margin-left: 4rem;
+}
+
+.container-2 > div {
+    display: flex;
+    color: #fffefe;
+    gap: 60px;
+}
+
+.title {
+    display: flex;
+    margin-bottom: 30px;
+    font-weight: bold;    
+}
+
+.endereco {
+    width: 195px;
+}
+
+.container-info > :first-child {
+    gap: 20px;
+    display: flex; 
+    flex-direction: column;
+}
+
+.data-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    /* margin-top: 10px;  */
+    text-align: center; 
+    color: #fffefe; 
+}
+
+hr {
+    width: 90%;
+    margin: 6rem auto 10px; /* margem na parte inferior do hr */
+    border: none;
+    height: 1px;
+    background-color: #fffefe;
+}
+
+.data-footer {
+    text-align: center; /* centraliza o texto */
+    margin: 1rem 0;
+}
