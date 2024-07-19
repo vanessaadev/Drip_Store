@@ -1,0 +1,29 @@
+.descricaoProduto {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgDescProd {
+    display: flex;
+    flex-direction: column;
+}
+
+.miniImagens {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagemGrande img {
+    width: 500px;
+}
+
+.miniImagens img {
+    width: 100px;
+}
+
+
+
+
+
+
+
