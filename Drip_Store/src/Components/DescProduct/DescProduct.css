@@ -1,16 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .descricaoProduto {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin: 0 6rem;
 }
 
-.imgDescProd {
+.dadosProduto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.imgDescProdColumn {
     display: flex;
     flex-direction: column;
 }
 
-.miniImagens {
+.imgDescProdRow {
     display: flex;
     flex-direction: row;
+    gap: 10px;
+    align-items: center;
 }
 
 .imagemGrande img {
@@ -20,6 +37,60 @@
 .miniImagens img {
     width: 100px;
 }
+
+
+/* Textos */
+.referenciasProduto {
+    font-size: 0.8rem;
+    color: #666666;
+}
+
+.avaliacao {
+    background-color: #F6AA1C;
+    border-radius: 0.2rem;
+    padding: 5px 20px;
+}
+
+.precoProd {
+    color: #474747;
+    font-size: 2rem;
+}
+
+.tamanhoSapato {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.tamanhoItem {
+    color: #474747;
+    font-size: 1.2rem;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    padding: 0.9rem;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.tamanhoItem:hover {
+    color: white;
+    background-color: #C92071;
+}
+
+.semList {
+    list-style-type: none;
+}
+
+.descricaoProduto button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 3rem;
+    background-color: #F6AA1C;
+}
+
+
 
 
 

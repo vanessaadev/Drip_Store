@@ -14,6 +14,7 @@ export function Carousel() {
     return(
         <>
             <Swiper 
+                loop={true}
                 slidesPerView={1}
                 pagination={{ clickable: true }}
                 navigation={false}
