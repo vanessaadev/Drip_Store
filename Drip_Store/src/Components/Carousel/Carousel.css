@@ -27,12 +27,17 @@
 /* InfoSlide componentes */
 
 .infoSlide {
-    display: column;
+    display: flex;
     flex-direction: column;
     align-content: space-around;
     /* line-height: 2rem; */
     /* margin: 2rem 0; */
     padding: 5rem 0;
+    gap: 1.5rem;
+}
+
+.infoSlide h1 {
+    font-size: 3rem;
 }
 
 .infoSlide h5 {

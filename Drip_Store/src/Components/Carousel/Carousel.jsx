@@ -16,7 +16,7 @@ export function Carousel() {
             <Swiper 
                 slidesPerView={1}
                 pagination={{ clickable: true }}
-                navigation
+                navigation={false}
             >
                 <SwiperSlide className="SwiperSlide">
                     <div className="slideGroup">
