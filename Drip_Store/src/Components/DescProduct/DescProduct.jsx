@@ -3,9 +3,9 @@ import React from "react";
 import Star from "../Stars/Stars"
 import { FaStar } from 'react-icons/fa'
 import ColorShoes from "../ColorsShoes/ColorsShoes"
-// import SlideShoes from "../SlideShoes/SlideShoes"
+import SlideShoes from "../SlideShoes/SlideShoes"
 
-import Tenis1 from '../../../public/TenisSlide.svg'
+// import Tenis1 from '../../../public/TenisSlide.svg'
 
 export function DescProduct() {
     return (
@@ -19,16 +19,20 @@ export function DescProduct() {
 
                 <div className='imgDescProd'>
                     <div className='imagemGrande'>
-                        <img src={Tenis1} alt="" />
-                        {/* <SlideShoes/> */}
+                        {/* <img src={Tenis1} alt="" /> */}
+                        
                     </div>
                     <div className='miniImagens'>
-                        <img src={Tenis1} className="item1" alt="" />
+                        {/* <img src={Tenis1} className="item1" alt="" />
                         <img src={Tenis1} className="item2" alt="" />
                         <img src={Tenis1} className="item3" alt="" />
                         <img src={Tenis1} className="item4" alt="" />
-                        <img src={Tenis1} className="item5" alt="" />
+                        <img src={Tenis1} className="item5" alt="" /> */}
+                        <SlideShoes/>
                     </div>
+
+                    
+                    
                 </div>
                 <div className='dadosProduto'>
                     <h1>Tênis Nike Revolution 6 Next Nature Masculino</h1>
