@@ -8,14 +8,15 @@
 .descricaoProduto {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin: 0 6rem;
+    align-items: flex-start;
+    margin: 0 8rem;
+    gap: 1rem;
 }
 
 .dadosProduto {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 5px;
 }
 
 .imgDescProdColumn {
@@ -31,11 +32,37 @@
 }
 
 .imagemGrande img {
-    width: 500px;
+    width: 528px;
+    background-color: #E2E3FF;
+}
+
+.miniImagens {
+    display: flex;
+    justify-content: space-between;
 }
 
 .miniImagens img {
     width: 100px;
+}
+
+.miniImagens .item1 {
+    background-color: #E2E3FF;
+}
+
+.miniImagens .item2 {
+    background-color: #FFE8BC;
+}
+
+.miniImagens .item3 {
+    background-color: #FFC0BC;
+}
+
+.miniImagens .item4 {
+    background-color: #DEC699;
+}
+
+.miniImagens .item5 {
+    background-color: #E8DFCF;
 }
 
 

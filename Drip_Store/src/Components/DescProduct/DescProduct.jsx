@@ -3,12 +3,7 @@ import React from "react";
 import Star from "../Stars/Stars"
 import { FaStar } from 'react-icons/fa'
 import ColorShoes from "../ColorsShoes/ColorsShoes"
-import SlideShoes from "../SlideShoes/SlideShoes"
-
-
-// Toda a instalação do Swiper  
-
-
+// import SlideShoes from "../SlideShoes/SlideShoes"
 
 import Tenis1 from '../../../public/TenisSlide.svg'
 
@@ -17,20 +12,17 @@ export function DescProduct() {
         <>
             <div className='descricaoProduto'>
 
-            
-
-
                 <div className='imgDescProd'>
                     <div className='imagemGrande'>
-                        <SlideShoes/>
                         <img src={Tenis1} alt="" />
+                        {/* <SlideShoes/> */}
                     </div>
                     <div className='miniImagens'>
-                        <img src={Tenis1} style={{ background: "red" }} className="item" alt="" />
-                        <img src={Tenis1} className="item" alt="" />
-                        <img src={Tenis1} className="item" alt="" />
-                        <img src={Tenis1} className="item" alt="" />
-                        <img src={Tenis1} className="item" alt="" />
+                        <img src={Tenis1} className="item1" alt="" />
+                        <img src={Tenis1} className="item2" alt="" />
+                        <img src={Tenis1} className="item3" alt="" />
+                        <img src={Tenis1} className="item4" alt="" />
+                        <img src={Tenis1} className="item5" alt="" />
                     </div>
                 </div>
                 <div className='dadosProduto'>
@@ -52,6 +44,7 @@ export function DescProduct() {
                     <h4 className='referenciasProduto'>Tamanho</h4>
 
                     <div className='tamanhoSapato'>
+                        <li className='tamanhoItem semList'>39</li>
                         <li className='tamanhoItem semList'>40</li>
                         <li className='tamanhoItem semList'>41</li>
                         <li className='tamanhoItem semList'>42</li>
