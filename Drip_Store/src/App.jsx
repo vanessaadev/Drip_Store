@@ -1,10 +1,13 @@
-import { HomePage } from "./Pages/HomePage/HomePage";
+// import { HomePage } from "./Pages/HomePage/HomePage";
 // import { Logo } from './Components/Logo/Logo'
+
+import { ProductViewPage } from "./Pages/ProductViewPage/ProductViewPage"
 
 function App() {
   return (
     <>
-      <HomePage/>
+      {/* <HomePage/> */}
+      <ProductViewPage/>
  
       {/* <Logo/> */}
     </>
