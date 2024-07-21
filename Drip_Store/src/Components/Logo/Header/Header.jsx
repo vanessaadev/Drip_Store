@@ -2,13 +2,13 @@ import cart from '../../assets/minicart.svg';
 import IconSearch from '../../assets/Search.svg'
 import { Logo } from '../Logo/Logo';
 import './Header.css'
-import { NavBar } from '../Navbar/NavBar';
+import { NavBar } from '../navbar/NavBar';
 
 export function Header() {
     return (
         <>
             <header>
-                <div className='cabelhaco'>
+                <div>
                     <Logo />
                     <input type="text" name="" id="" placeholder="Pesquisar produto..." />
                     <img className='search' src={IconSearch} alt="" />
@@ -17,11 +17,10 @@ export function Header() {
                         <button>Entrar</button>
                     </div>
                     <img className='cart' src={cart} alt="Icone de Carrinho de Compra" />
+
                 </div>
                 <NavBar/>
             </header>
         </>
     )
 }
-
-export default Header

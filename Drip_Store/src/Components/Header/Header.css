@@ -1,0 +1,64 @@
+header {
+    max-width: 1200px;
+    width: 100%;
+    height: 192px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+header > .cabelhaco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    gap: 2.5rem;
+}
+
+header > .cabelhaco > input {
+    width: 559px;
+    Height: 60px;
+    outline: none;
+    border: none;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    text-indent: 17px;
+    position: relative;
+}
+
+header > .cabelhaco > .search {
+    position: absolute;
+    left: 66%;
+}
+
+header > .cabelhaco > div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+header > .cabelhaco > div > a {
+    color: #474747;
+    text-decoration: none;
+    font-size: 16px;
+    width: 6.3rem;
+}
+
+header > .cabelhaco > div > a:hover{
+    text-decoration: underline;
+}
+
+header > .cabelhaco > div > button {
+    Width: 114px; 
+    Height: 40px;
+    border: none;
+    color: white;
+    background-color: #C92071;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+header > .cabelhaco > .cart {
+    cursor: pointer;
+}
+

@@ -1,0 +1,28 @@
+.navbar {
+    position: relative
+}
+
+.navbar > ul {
+    position: absolute;
+    top: -40px;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    color: #474747;
+    cursor: pointer;
+}
+
+.navbar > ul > li > a {
+    color: #474747;
+    text-decoration: none;
+}
+
+.navbar > ul > li > a:hover {
+    color: #C92071;
+    border-bottom: solid 2px #C92071;
+    padding-bottom: 2px;
+} 
+
+.navbar > ul > li> a:active {
+    color: #C92071;
+}
