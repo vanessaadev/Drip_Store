@@ -4,13 +4,9 @@
     box-sizing: border-box;
 }
 
-
-
-
 footer {
     display: flex;
     background-color:#1f1f1f ;
-    /* height: 400px; */
     flex-wrap: wrap;
     width: 100%;
 }
@@ -30,7 +26,6 @@ footer {
     gap: 5px;
     top: 60px;
     left: 80px;
-    
 }
 
 .text-container{
@@ -61,7 +56,7 @@ footer {
 }
 
 .container-contato {
-    margin-left: 4rem;
+    margin-left: 5rem;
 }
 
 .container-2 > div {
@@ -72,7 +67,7 @@ footer {
 
 .title {
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-weight: bold;    
 }
 
@@ -91,20 +86,19 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    /* margin-top: 10px;  */
     text-align: center; 
     color: #fffefe; 
 }
 
 hr {
     width: 90%;
-    margin: 6rem auto 10px; /* margem na parte inferior do hr */
+    margin: 6rem auto 10px; 
     border: none;
     height: 1px;
     background-color: #fffefe;
 }
 
 .data-footer {
-    text-align: center; /* centraliza o texto */
+    text-align: center; 
     margin: 1rem 0;
 }

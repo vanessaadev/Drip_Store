@@ -3,16 +3,18 @@ import { ProductListingPage } from "./Pages/ProductListingPage/ProductListingPag
 import { ProductViewPage } from "./Pages/ProductViewPage/ProductViewPage"
 import { Footer } from "./Components/Footer/Footer"
 import { SectionCard } from "./Components/SectionCard/SectionCard"
+import { SectionOfert } from "./Components/SectionOfert/SectionOfert"
 
 function App() {
 
   return (
     <>
-      <HomePage/>
+      {/* <HomePage/> */}
       <SectionCard/>
+      <SectionOfert/>
       <Footer/>
-      <ProductListingPage/>
-      <ProductViewPage/>
+      {/* <ProductListingPage/>
+      <ProductViewPage/> */}
     </>
   )
 }
