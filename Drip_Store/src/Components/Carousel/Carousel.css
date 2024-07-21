@@ -15,8 +15,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;      
-    margin: 4rem;
-    padding: 2rem;                                       
+    margin: 0 4rem;
+    padding: 0 2rem;                                       
 }
 
 .slide-image {
@@ -30,14 +30,15 @@
     display: flex;
     flex-direction: column;
     align-content: space-around;
+    justify-content: center;
     /* line-height: 2rem; */
     /* margin: 2rem 0; */
-    padding: 5rem 0;
+    /* padding: 5rem 0; */
     gap: 1.5rem;
 }
 
 .infoSlide h1 {
-    font-size: 3rem;
+    font-size: 3.1rem;
 }
 
 .infoSlide h5 {
@@ -49,6 +50,7 @@
 }
 
 .infoSlide button {
+    margin-right: 17rem;
     background-color: #C92071;
     color: #F7F7FC;
     font-weight: bold;

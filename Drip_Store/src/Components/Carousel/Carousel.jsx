@@ -33,21 +33,33 @@ export function Carousel() {
                     </div>
                     
                 </SwiperSlide>
-                <SwiperSlide>
-                    <div>
-                        texto2
+                <SwiperSlide className="SwiperSlide">
+                    <div className="slideGroup">
+                    <div className="infoSlide">
+                        <h5>Melhores Ofertas Personalizadas</h5>
+                        <h1>Queima de Estoque Nike 🔥</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, similique.</p>
+                        <button>Ver Ofertas</button>  
                     </div>
                     <div>
                         <img src="public/TenisSlide.svg" className="slide-image" />
                     </div>
+                    </div>
+                    
                 </SwiperSlide>
-                <SwiperSlide>
-                    <div>
-                        texto3
+                <SwiperSlide className="SwiperSlide">
+                    <div className="slideGroup">
+                    <div className="infoSlide">
+                        <h5>Melhores Ofertas Personalizadas</h5>
+                        <h1>Queima de Estoque Nike 🔥</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, similique.</p>
+                        <button>Ver Ofertas</button>  
                     </div>
                     <div>
                         <img src="public/TenisSlide.svg" className="slide-image" />
                     </div>
+                    </div>
+                    
                 </SwiperSlide>
             </Swiper>
         </>

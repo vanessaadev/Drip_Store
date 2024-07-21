@@ -5,6 +5,17 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
+
+.caminhoTenis h5 {
+    margin: 1rem 0;
+    color: #474747;
+}
+
+.caminhoTenis {
+    margin: 0 8rem;
+}
+
 .descricaoProduto {
     display: flex;
     flex-direction: row;
@@ -12,6 +23,8 @@
     margin: 0 8rem;
     gap: 1rem;
 }
+
+
 
 .dadosProduto {
     display: flex;

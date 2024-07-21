@@ -9,8 +9,13 @@ import Tenis1 from '../../../public/TenisSlide.svg'
 
 export function DescProduct() {
     return (
-        <>
-            <div className='descricaoProduto'>
+        
+<div className='containerDP'>
+<div className='caminhoTenis'>
+                <h5>Home / Produtos / Tênis / Nike / Tênis Nike Revolution</h5>
+            </div>
+
+            <div className='descricaoProduto'>              
 
                 <div className='imgDescProd'>
                     <div className='imagemGrande'>
@@ -50,7 +55,6 @@ export function DescProduct() {
                         <li className='tamanhoItem semList'>42</li>
                         <li className='tamanhoItem semList'>43</li>
                     </div>
-
                     <h4 className='referenciasProduto'>Cores</h4>
                     <div className='cores'>
                         <ColorShoes/>
@@ -59,11 +63,10 @@ export function DescProduct() {
                     <div>
                         <button>Comprar</button>
                     </div>
-
-
-                    <p></p>
+                </div>
+            
                 </div>
             </div>
-        </>
+        
     )
 }
