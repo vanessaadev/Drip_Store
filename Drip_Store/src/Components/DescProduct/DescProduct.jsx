@@ -1,16 +1,13 @@
 import './DescProduct.css'
+import React from "react";
+import Star from "../Stars/Stars"
+import { FaStar } from 'react-icons/fa'
+import ColorShoes from "../ColorsShoes/ColorsShoes"
+import SlideShoes from "../SlideShoes/SlideShoes"
 
-import "./Carousel.css"
+
 // Toda a instalação do Swiper  
-import { register } from 'swiper/element/bundle'
 
-register ()
-import 'swiper/css'
-import 'swiper/css/navigation'
-import 'swiper/css/pagination'
-import 'swiper/css/scrollbar'
-
-import { Swiper, SwiperSlide } from 'swiper/react'
 
 
 import Tenis1 from '../../../public/TenisSlide.svg'
@@ -20,51 +17,16 @@ export function DescProduct() {
         <>
             <div className='descricaoProduto'>
 
-            <Swiper 
-                loop={true}
-                slidesPerView={1}
-                pagination={{ clickable: true }}
-                navigation={false}
-            >
-                <SwiperSlide className="SwiperSlide">
-                    <div className="slideGroup">
-                    <div className="infoSlide">
-                        <h5>Melhores Ofertas Personalizadas</h5>
-                        <h1>Queima de Estoque Nike 🔥</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, similique.</p>
-                        <button>Ver Ofertas</button>  
-                    </div>
-                    <div>
-                        <img src="public/TenisSlide.svg" className="slide-image" />
-                    </div>
-                    </div>
-                    
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div>
-                        texto2
-                    </div>
-                    <div>
-                        <img src="public/TenisSlide.svg" className="slide-image" />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div>
-                        texto3
-                    </div>
-                    <div>
-                        <img src="public/TenisSlide.svg" className="slide-image" />
-                    </div>
-                </SwiperSlide>
-            </Swiper>
+            
 
 
                 <div className='imgDescProd'>
                     <div className='imagemGrande'>
+                        <SlideShoes/>
                         <img src={Tenis1} alt="" />
                     </div>
                     <div className='miniImagens'>
-                        <img src={Tenis1} className="item" alt="" />
+                        <img src={Tenis1} style={{ background: "red" }} className="item" alt="" />
                         <img src={Tenis1} className="item" alt="" />
                         <img src={Tenis1} className="item" alt="" />
                         <img src={Tenis1} className="item" alt="" />
@@ -76,8 +38,8 @@ export function DescProduct() {
                     <p className='referenciasProduto'>Casual | Nike | REF:38416711</p>
 
                     <div className='imgDescProdRow'>
-                        <p>estrelas</p>
-                        <p className='avaliacao'>4.7</p>
+                        <p><Star/></p>
+                        <p className='avaliacao'>4.7 <FaStar/></p>
                         <p className='referenciasProduto'>(90 avaliações)</p>
                     </div>
 
@@ -87,6 +49,8 @@ export function DescProduct() {
 
                     <p className='referenciasProduto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, autem nesciunt molestiae est vel perferendis!</p>
 
+                    <h4 className='referenciasProduto'>Tamanho</h4>
+
                     <div className='tamanhoSapato'>
                         <li className='tamanhoItem semList'>40</li>
                         <li className='tamanhoItem semList'>41</li>
@@ -94,8 +58,9 @@ export function DescProduct() {
                         <li className='tamanhoItem semList'>43</li>
                     </div>
 
+                    <h4 className='referenciasProduto'>Cores</h4>
                     <div className='cores'>
-                        <p>cores</p>
+                        <ColorShoes/>
                     </div>
 
                     <div>

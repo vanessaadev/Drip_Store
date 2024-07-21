@@ -2,8 +2,7 @@
 // import { ProductListingPage } from "./Pages/ProductListingPage/ProductListingPage"
 // import { ProductViewPage } from "./Pages/ProductViewPage/ProductViewPage"
 // import { Carousel } from "./Components/Carousel/Carousel"
-// import { DescProduct } from "./Components/DescProduct/DescProduct"
-import { SlideImages } from "./Components/SlideImages/SlideImages"
+import { DescProduct } from "./Components/DescProduct/DescProduct"  
 
 function App() {
   return (
@@ -12,8 +11,7 @@ function App() {
       <ProductListingPage/>
       <ProductViewPage/> */}
       {/* <Carousel/> */}
-      {/* <DescProduct/> */}
-      <SlideImages/>
+      <DescProduct/>
     </>
   )
 }
