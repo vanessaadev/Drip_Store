@@ -1,4 +1,4 @@
-import cart from '../../assets/minicart.svg';
+import cart from '../../assets/mini-cart.svg';
 import IconSearch from '../../assets/Search.svg'
 import { Logo } from '../Logo/Logo';
 import './Header.css'

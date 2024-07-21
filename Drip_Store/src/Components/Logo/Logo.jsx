@@ -1,4 +1,4 @@
-import LogoHeader from '../../assets/logoheader.svg'
+import LogoHeader from '../../assets/logo-header.svg'
 
 export function Logo() {
     return (
