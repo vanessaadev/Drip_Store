@@ -24,7 +24,7 @@ export function Carousel() {
                     <div className="infoSlide">
                         <h5>Melhores Ofertas Personalizadas</h5>
                         <h1>Queima de Estoque Nike 🔥</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, similique.</p>
+                        <p className="textResponsive">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, similique.</p>
                         <button>Ver Ofertas</button>  
                     </div>
                     <div>
@@ -38,7 +38,7 @@ export function Carousel() {
                     <div className="infoSlide">
                         <h5>Melhores Ofertas Personalizadas</h5>
                         <h1>Queima de Estoque Nike 🔥</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, similique.</p>
+                        <p className="textResponsive">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, similique.</p>
                         <button>Ver Ofertas</button>  
                     </div>
                     <div>
@@ -52,7 +52,7 @@ export function Carousel() {
                     <div className="infoSlide">
                         <h5>Melhores Ofertas Personalizadas</h5>
                         <h1>Queima de Estoque Nike 🔥</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, similique.</p>
+                        <p className="textResponsive">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, similique.</p>
                         <button>Ver Ofertas</button>  
                     </div>
                     <div>
