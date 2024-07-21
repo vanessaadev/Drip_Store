@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       {/* <HomePage/> */}
+
       <ProductViewPage/>
  
       {/* <Logo/> */}
