@@ -1,4 +1,4 @@
-import Camiseta from '../../assets/tshirt.svg';
+import Camiseta from '../../assets/tshirt.svg'
 import Calca from '../../assets/pants.svg';
 import Bone from '../../assets/pants.svg';
 import Headphone from '../../assets/headphones.svg';

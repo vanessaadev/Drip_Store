@@ -1,4 +1,4 @@
-import ArrowRight from '../../assets/arrow-right.svg'
+import ArrowRight from '../../assets/right-arrow.svg'
 import TenisCard from '../../assets/tenisCard.svg'
 import '../../App.css'
 import './ProductCard.css'
