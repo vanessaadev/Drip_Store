@@ -42,3 +42,7 @@ section>.main>.f>picture > img {
     width: 64px;
     height: 64px;
 }
+
+.f picture img:hover {
+    color: red;
+}

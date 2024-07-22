@@ -8,11 +8,12 @@
 
 
 .container-title-card {
-
     font-size: 24px;
     font-weight: 700;
     color: #474747;
-    margin-left: 10.4rem;
+    max-width: 1200px;
+    margin-bottom: 2rem;
+    /* margin-left: 8rem; */
 }
 
 
@@ -21,21 +22,21 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    margin: 2rem 0;
+    /* margin: 2rem 0 0; */
 }
 
 .container-collection h3 {
-    margin: 1rem 5rem 0 1.5rem;
-    font-size: 2rem;
+    margin: 1rem 8rem 0 1.5rem;
+    font-size: 2.5rem;
 }
 
 .collection-1 {
-   background-image: url('../../../public/collection1.png');
-   background-size: cover;
-   background-repeat: no-repeat;
-   width: 405px;
-   height: 251px;
-   border-radius: 0.5rem;
+    background-image: url('../../../public/collection1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 405px;
+    height: 251px;
+    border-radius: 0.5rem;
 
 }
 
@@ -58,7 +59,7 @@
 }
 
 
-.btn-comprar {
+/* .btn-comprar {
     display: flex;
     color: #C92071;
     font-weight: 600;
@@ -68,10 +69,9 @@
     border-radius: 10px;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;
-    margin-left: 1.5rem;   
-    cursor: pointer; 
-}
+    cursor: pointer;
+} */
+
 /*   Imagens */
 
 .oferta {
