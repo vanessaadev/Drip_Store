@@ -43,19 +43,7 @@
 
 /*   Imagens */
 
-.btn-comprar {
-    display: flex;
-    color: #C92071;
-    font-weight: 600;
-    border: none;
-    height: 48px;
-    width: 153px;
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 8rem;
-    margin-left: 1.5rem;
-}
+
 
 .oferta {
     background-color: #E7FF86;

@@ -23,7 +23,7 @@ export function ProductPage() {
                         <p>Marka</p>
                         <form>
                             <div>
-                                <input type="checkbox" />
+                                <input type="checkbox" checked/>
                                 <label htmlFor="">Adidas</label>
                             </div>
                             <div>
@@ -31,7 +31,7 @@ export function ProductPage() {
                                 <label htmlFor="">Calenciaga</label>
                             </div>
                             <div>
-                                <input type="checkbox" />
+                                <input type="checkbox" checked/>
                                 <label htmlFor="">K-Swiss</label>
                             </div>
                             <div>
@@ -46,7 +46,7 @@ export function ProductPage() {
                         <p>Categoria</p>
                         <form>
                             <div>
-                                <input type="checkbox" />
+                                <input type="checkbox" checked/>
                                 <label htmlFor="">Esporte e lazer</label>
                             </div>
                             <div>
@@ -65,11 +65,11 @@ export function ProductPage() {
                         <p>Gênero</p>
                         <form>
                             <div>
-                                <input type="checkbox" />
+                                <input type="checkbox" checked/>
                                 <label htmlFor="">Masculino</label>
                             </div>
                             <div>
-                                <input type="checkbox" className='checkbox' />
+                                <input type="checkbox" checked />
                                 <label htmlFor="">Feminino</label>
                             </div>
                             <div>
@@ -79,7 +79,7 @@ export function ProductPage() {
                         </form>
                         <p>Estado</p>
                         <div>
-                            <input type="radio" />
+                            <input type="radio" checked/>
                             <label htmlFor="">Novo</label>
                         </div>
                         <div>
