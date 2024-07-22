@@ -24,19 +24,23 @@
     margin: 2rem 0;
 }
 
-.container-collection h3 {
+.container-collectionz h3 {
     margin: 1rem 5rem 0 1.5rem;
     font-size: 2rem;
 }
 
 .collection-1 {
-   background-image: url('../../../public/collection1.png');
-   background-size: cover;
-   background-repeat: no-repeat;
-   width: 405px;
-   height: 251px;
-   border-radius: 0.5rem;
+    background-image: url('../../../public/collection1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 405px;
+    height: 251px;
+    border-radius: 0.5rem;
+    transition: 1s;
+}
 
+.collection-1:hover {
+    transform: scale(1.07);
 }
 
 .collection-2 {
@@ -46,6 +50,11 @@
     width: 405px;
     height: 251px;
     border-radius: 0.5rem;
+    transition: 1s;
+}
+
+.collection-2:hover {
+    transform: scale(1.07);
 }
 
 .collection-3 {
@@ -55,8 +64,12 @@
     width: 405px;
     height: 251px;
     border-radius: 0.5rem;
+    transition: 1s;
 }
 
+.collection-3:hover {
+    transform: scale(1.07);
+}
 
 .btn-comprar {
     display: flex;
@@ -69,9 +82,10 @@
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
-    margin-left: 1.5rem;   
-    cursor: pointer; 
+    margin-left: 1.5rem;
+    cursor: pointer;
 }
+
 /*   Imagens */
 
 .oferta {

@@ -15,6 +15,7 @@
 .navbar > ul > li > a {
     color: #474747;
     text-decoration: none;
+    transition: 0.11s;
 }
 
 .navbar > ul > li > a:hover {

@@ -10,6 +10,7 @@ import 'swiper/css/scrollbar'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { ButtonRosa } from "../ButtonRosa/ButtonRosa"
+import { Link } from "react-router-dom"
 
 export function Carousel() {
     return(
@@ -27,7 +28,9 @@ export function Carousel() {
                             <h5>Melhores Ofertas Personalizadas</h5>
                             <h1>Queima de Estoque Nike 🔥</h1>
                             <p className="textResponsive">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, similique.</p>
+                            <Link to='/products'>
                             <ButtonRosa/>
+                            </Link>
                         </div>
                         <div>
                             <img src="public/TenisSlide.svg" className="slide-image" />
@@ -41,7 +44,9 @@ export function Carousel() {
                             <h5>Melhores Ofertas Personalizadas</h5>
                             <h1>Queima de Estoque Nike 🔥</h1>
                             <p className="textResponsive">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, similique.</p>
+                            <Link to='/products'>
                             <ButtonRosa/>
+                            </Link>
                         </div>
                         <div>
                             <img src="public/TenisSlide.svg" className="slide-image" />
@@ -55,7 +60,9 @@ export function Carousel() {
                             <h5>Melhores Ofertas Personalizadas</h5>
                             <h1>Queima de Estoque Nike 🔥</h1>
                             <p className="textResponsive">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, similique.</p>
+                            <Link to='/products'>
                             <ButtonRosa/>
+                            </Link>
                         </div>
                         <div>
                             <img src="public/TenisSlide.svg" className="slide-image" />

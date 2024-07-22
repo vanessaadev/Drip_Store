@@ -2,7 +2,6 @@
     /* margin: 0 auto; */
     max-width: 1200px;
     width: 100%;
-    cursor: pointer;
 }
 
 .prodCard > .first {
@@ -50,6 +49,7 @@
 .prodCard > .second > div > div  {
     Width: 252px;
     Height: 260px;
+    cursor: pointer;
 }
 
 .prodCard > .second > div > div > img {
@@ -69,6 +69,12 @@
 .prodCard > .second > div > h3 {
     color: #474747;
     font-weight: 400;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.prodCard > .second > div > h3:hover {
+    color: #C92071;
 }
 
 .prodCard > .second > div > .prices {

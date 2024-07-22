@@ -3,6 +3,7 @@ import { ButtonRosa } from "../ButtonRosa/ButtonRosa"
 
 import sapato from '../../../public/sapato.png'
 import fundo_sapato from '../../../public/fundo_sapato.png'
+import { Link } from 'react-router-dom'
 
 export function SectionOfert() {
     return(
@@ -28,7 +29,9 @@ export function SectionOfert() {
 
                 <span className='lorem-text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi sed ad accusantium suscipit, fugit assumenda rerum. Labore officiis voluptates repellendus illum nisi odio, quod vero pariatur quis iste saepe exercitationem.</span>
 
+                <Link to='/viewProduct'>
                 <ButtonRosa/>
+                </Link>
 
             </div>
 
