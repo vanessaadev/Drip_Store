@@ -1,7 +1,17 @@
+import React from "react"
+
+import { Header } from "../../Components/Header/Header"
+import { DescProduct } from "../../Components/DescProduct/DescProduct"
+import { Footer } from "../../Components/Footer/Footer"
+import { ProductCard } from "../../Components/ProductCard/ProductCard"
+
 export function ProductViewPage() {
     return (
         <>
-        <h3>Product View Page</h3>
+        <Header/>
+        <DescProduct/>
+        <ProductCard quantidadeProdutos={4}/>
+        <Footer/>
         </>
     )
 }
