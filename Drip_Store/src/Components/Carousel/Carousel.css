@@ -15,7 +15,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;      
-    margin: 0 4rem;
     padding: 0 2rem;                                       
 }
 
@@ -38,7 +37,9 @@
 }
 
 .infoSlide h1 {
-    font-size: 3.1rem;
+    font-size: 60px;
+    height: 132px;
+    width: 500px;
 }
 
 .infoSlide h5 {
@@ -49,15 +50,23 @@
     color: #474747;
 }
 
-.infoSlide button {
-    margin-right: 17rem;
+/* .infoSlide button { */
+    /* margin-right: 20rem; */
+    /* width: 220px;
+    height: 48px;
     background-color: #C92071;
     color: #F7F7FC;
     font-weight: bold;
     padding: 13px 2.9rem;
     border: none;
-    border-radius: 5px;
-}
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.6s; */
+/* } */
+
+/* .infoSlide button:hover {
+    background-color: #a1195b; 
+} */
 
 /* Fim InfoSlide componentes */
 
@@ -143,4 +152,3 @@
         width: 350px;
     }
 }
-/* Fim Responsividade */

@@ -1,13 +1,14 @@
-import { HomePage } from "./Pages/HomePage/HomePage";
-// import { Logo } from './Components/Logo/Logo'
-
+import { BrowserRouter as Router } from "react-router-dom"
+import { AppRoutes } from "./Routes/AppRoutes";
+// import { HomePage } from "./Pages/HomePage/HomePage";
+// import { ProductViewPage } from "./Pages/ProductViewPage/ProductViewPage"
 function App() {
   return (
-    <>
-      <HomePage/>
- 
-      {/* <Logo/> */}
-    </>
+    <Router>
+      <>
+      <AppRoutes/>
+      </>
+    </Router>
   )
 }
 
