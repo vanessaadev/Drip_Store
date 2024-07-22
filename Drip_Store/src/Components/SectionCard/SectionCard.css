@@ -1,10 +1,10 @@
-.containerSectionCard {
+/* .containerSectionCard {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-}
+} */
 
 
 .container-title-card {
@@ -13,16 +13,16 @@
     color: #474747;
     max-width: 1200px;
     margin-bottom: 2rem;
-    /* margin-left: 8rem; */
 }
 
 
 .container-collection {
-    /* display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem; */
-    /* margin: 2rem 0 0; */
+    gap: 1rem; 
+    margin: 2rem 0 0;
+    cursor: pointer;
 }
 
 
@@ -43,7 +43,7 @@
     width: 405px;
     height: 251px;
     border-radius: 0.5rem;
-    transition: 1s;
+    transition: 0.4s;
 }
 
 .collection-1:hover {
@@ -57,7 +57,7 @@
     width: 405px;
     height: 251px;
     border-radius: 0.5rem;
-    transition: 1s;
+    transition: 0.4s;
 }
 
 .collection-2:hover {
@@ -71,7 +71,7 @@
     width: 405px;
     height: 251px;
     border-radius: 0.5rem;
-    transition: 1s;
+    transition: 0.4s;
 }
 
 .collection-3:hover {

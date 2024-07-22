@@ -70,7 +70,7 @@
     color: #474747;
     font-weight: 400;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.3s;
 }
 
 .prodCard > .second > div > h3:hover {

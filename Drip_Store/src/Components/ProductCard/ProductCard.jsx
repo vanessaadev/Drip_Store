@@ -77,7 +77,7 @@ const tenis = [
 export function ProductCard({ quantidadeProdutos }) {
 
     // --------- Navega entre as páginas --------------
-    const navigate =useNavigate()
+    const navigate = useNavigate()
 
     const handClick = () => navigate('/viewProduct')
     //-------------------------------------------------
