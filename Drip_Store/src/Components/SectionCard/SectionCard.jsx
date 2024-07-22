@@ -13,17 +13,26 @@ export function SectionCard() {
                         <div className='oferta'>
                             30% OFF
                         </div>
+                        <div>
+                            <h3>Novo Drop Supreme</h3>
+                        </div>
                         <ButtonCard/>
                     </div>
                     <div className='collection-2'>
                         <div className='oferta'>
                             30% OFF
                         </div>
+                        <div>
+                            <h3>Coleção Adidas</h3>
+                        </div>
                         <ButtonCard/>
                     </div>
                     <div className='collection-3'>
                         <div className='oferta'>
                             30% OFF
+                        </div>
+                        <div>
+                            <h3>Novo Beat Bass</h3>
                         </div>
                         <ButtonCard/>
                     </div>
