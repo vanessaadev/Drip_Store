@@ -3,6 +3,8 @@ import TenisCard from '../../assets/tenisCard.svg'
 import '../../App.css'
 import './ProductCard.css'
 
+import { useNavigate } from 'react-router'
+
 const tenis = [
     {
         nome: 'Tênis',
@@ -72,10 +74,15 @@ const tenis = [
 ]; 
 
 export function ProductCard({ quantidadeProdutos }) {
+
+    const navigate =useNavigate()
+
+    const handClick = () => navigate('/products')
+
     const produtosParaMostrar = tenis.slice(0, quantidadeProdutos);
 
     return (
-        <section className='prodCard'>
+        <section className='prodCard' onClick={handClick}>
             <div className='first'>
                 <h2>Produtos em alta</h2>
                 <a href="#">Ver todos <img src={ArrowRight} alt="" /></a>
