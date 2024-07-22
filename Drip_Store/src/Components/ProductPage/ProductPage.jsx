@@ -3,15 +3,8 @@ import ArrowBottom from '../../assets/arrow-bottom.svg'
 import TenisCard from '../../assets/tenisCard.svg'
 import ProductCard from '../ProductCard/ProductCard'
 
-import { useNavigate } from 'react-router'
-
 
 export function ProductPage() {
-
-    const navigate =useNavigate()
-
-    const handClick = () => navigate('/viewProduct')
-
 
     return (
         <>
@@ -96,7 +89,7 @@ export function ProductPage() {
                             <label htmlFor="">Usado</label>
                         </div>
                     </div>
-                    <div className='cards' onClick={handClick}>
+                    <div className='cards'>
                         <div>
                             <div><img src={TenisCard} alt="" /></div>
                             <p>Tênis</p>
@@ -125,7 +118,7 @@ export function ProductPage() {
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
 
             </section>

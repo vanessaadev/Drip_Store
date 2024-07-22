@@ -75,10 +75,12 @@ const tenis = [
 
 export function ProductCard({ quantidadeProdutos }) {
 
+    // --------- Navega entre as páginas --------------
     const navigate =useNavigate()
 
-    const handClick = () => navigate('/products')
-
+    const handClick = () => navigate('/viewProduct')
+    //-------------------------------------------------
+    
     const produtosParaMostrar = tenis.slice(0, quantidadeProdutos);
 
     return (
