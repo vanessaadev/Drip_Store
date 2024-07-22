@@ -1,7 +1,10 @@
+import Header from "../../Components/Header/Header";
+import { ProductPage } from "../../Components/ProductPage/ProductPage";
 export function ProductListingPage() {
     return (
         <>
-        <h3>Product Listing Page</h3>
+        <Header/>
+        <ProductPage/>
         </>
     )
 }

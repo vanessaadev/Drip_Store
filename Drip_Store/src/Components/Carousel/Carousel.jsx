@@ -13,7 +13,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 export function Carousel() {
     return(
         <>
-            <section>
+            {/* <section> */}
                 <Swiper
                     loop={true}
                     slidesPerView={1}
@@ -63,7 +63,7 @@ export function Carousel() {
                 
                     </SwiperSlide>
                 </Swiper>
-            </section>
+            {/* </section> */}
         </>
     )
 }
