@@ -27,8 +27,8 @@ export function SectionCard() {
                         </div>
                         <ButtonCard/>
                     </div>
-
                 </div>
+
             </section>
 
         </>

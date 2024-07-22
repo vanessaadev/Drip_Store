@@ -1,30 +1,46 @@
+.containerSectionCard {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+
 .container-title-card {
-    /* width: 200px; */
-    font-size: 20px;
+
+    font-size: 24px;
     font-weight: 700;
     color: #474747;
-    /* margin-left: 10rem; */
+    margin-left: 10.4rem;
 }
 
 
 .container-collection {
     display: flex;
-    gap: 1.2rem;
-    margin-top: 2rem;
-    margin-bottom: 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.container-collection h3 {
+    margin: 1rem 5rem 0 1.5rem;
+    font-size: 2rem;
 }
 
 .collection-1 {
-    background-image: url('../../../public/collection-1.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 405px;
-    height: 251px;
-    border-radius: 0.5rem;
+   background-image: url('../../../public/collection1.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 405px;
+   height: 251px;
+   border-radius: 0.5rem;
+
 }
 
 .collection-2 {
-    background-image: url('../../../public/collection-2.png');
+    background-image: url('../../../public/collection2.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 405px;
@@ -33,7 +49,7 @@
 }
 
 .collection-3 {
-    background-image: url('../../../public/collection-3.png');
+    background-image: url('../../../public/collection3.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 405px;
@@ -41,9 +57,22 @@
     border-radius: 0.5rem;
 }
 
+
+.btn-comprar {
+    display: flex;
+    color: #C92071;
+    font-weight: 600;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 1.5rem;   
+    cursor: pointer; 
+}
 /*   Imagens */
-
-
 
 .oferta {
     background-color: #E7FF86;
