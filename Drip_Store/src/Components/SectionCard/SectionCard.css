@@ -25,15 +25,15 @@
     /* margin: 2rem 0 0; */
 }
 
-<<<<<<< HEAD
+
 .container-collectionz h3 {
     margin: 1rem 5rem 0 1.5rem;
     font-size: 2rem;
-=======
+}
+
 .container-collection h3 {
     margin: 1rem 8rem 0 1.5rem;
     font-size: 2.5rem;
->>>>>>> 193d71204d68601363229c3f808eaabb1579b5db
 }
 
 .collection-1 {
@@ -43,11 +43,8 @@
     width: 405px;
     height: 251px;
     border-radius: 0.5rem;
-<<<<<<< HEAD
     transition: 1s;
 }
-=======
->>>>>>> 193d71204d68601363229c3f808eaabb1579b5db
 
 .collection-1:hover {
     transform: scale(1.07);
@@ -91,15 +88,10 @@
     border-radius: 10px;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
     margin-top: 1rem;
     margin-left: 1.5rem;
     cursor: pointer;
 }
-=======
-    cursor: pointer;
-} */
->>>>>>> 193d71204d68601363229c3f808eaabb1579b5db
 
 /*   Imagens */
 
