@@ -1,18 +1,12 @@
-<<<<<<< HEAD
-import './DescProduct.css'
-import React from "react";
-import Star from "../Stars/Stars"
-import { FaStar } from 'react-icons/fa'
-import ColorShoes from "../ColorsShoes/ColorsShoes"
-import SlideShoes from "../SlideShoes/SlideShoes"
-
-// import Tenis1 from '../../../public/TenisSlide.svg'
-=======
 import './DescProduct.css';
 import React, { useState } from 'react';
 import Star from '../Stars/Stars';
 import { FaStar } from 'react-icons/fa';
 import ColorShoes from '../ColorsShoes/ColorsShoes';
+import ChevronRight from '../../assets/arrow-right.svg'
+import ChevronLeft from '../../assets/arrow-left.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 
 import Tenis1 from '../../../public/TenisSlide.svg';
 
@@ -23,7 +17,6 @@ const coresFundo = [
     { cor: '#DEC699' },
     { cor: '#E8DFCF' }
 ];
->>>>>>> 66fcf0b94360585e6375a5232cd2e049418abc58
 
 export function DescProduct() {
     const [indiceCor, setIndiceCor] = useState(0);
@@ -45,37 +38,26 @@ export function DescProduct() {
             <div className='descricaoProduto'>
 
                 <div className='imgDescProd'>
-<<<<<<< HEAD
-                    <div className='imagemGrande'>
-                        {/* <img src={Tenis1} alt="" /> */}
-                        
-=======
                     <div className='imagemGrande' style={{ backgroundColor: coresFundo[indiceCor].cor }}>
                         <img src={Tenis1} alt="" />
 
                         {/* Botões de navegação */}
                         <div className='btn-slide'>
-                            <button className="botaoNavegacao " onClick={anteriorCor}></button>
-                            <button className="botaoNavegacao " onClick={proximaCor}></button>
+                            <FontAwesomeIcon icon={faChevronLeft} className="botaoNavegacao" onClick={anteriorCor} />
+                            <FontAwesomeIcon icon={faChevronRight} className="botaoNavegacao" onClick={proximaCor} />
+                            {/* <img className="botaoNavegacao" src={ChevronLeft} onClick={anteriorCor}/> */}
+                            {/* <img className="botaoNavegacao" src={ChevronRight} onClick={proximaCor}/> */}
                         </div>
 
->>>>>>> 66fcf0b94360585e6375a5232cd2e049418abc58
                     </div>
+
+                    
 
                     {/* Miniaturas de imagens (alteram o slide de cor) */}
                     <div className='miniImagens'>
-<<<<<<< HEAD
-                        {/* <img src={Tenis1} className="item1" alt="" />
-                        <img src={Tenis1} className="item2" alt="" />
-                        <img src={Tenis1} className="item3" alt="" />
-                        <img src={Tenis1} className="item4" alt="" />
-                        <img src={Tenis1} className="item5" alt="" /> */}
-                        <SlideShoes/>
-=======
                         {coresFundo.map((cor, index) => (
                             <img key={index} onClick={() => setIndiceCor(index)} src={Tenis1} className={`item${index + 1}`} alt="" />
                         ))}
->>>>>>> 66fcf0b94360585e6375a5232cd2e049418abc58
                     </div>
 
                     

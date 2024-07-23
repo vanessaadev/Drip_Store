@@ -44,6 +44,10 @@
     width: 528px;
 }
 
+.imagemGrande {
+    position: relative;
+}
+
 .miniImagens {
     display: flex;
     justify-content: space-between;
@@ -132,28 +136,22 @@
 
 .btn-slide {
     position: absolute;
+    top: 50%; /* Ajuste para posicionar 10px do topo da imagem */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 460px;
-    top: 50%;
+    justify-content: space-between;
+    width: 100%; /* Ocupa toda a largura */
+    box-sizing: border-box; /* Garante que o padding não aumente a largura */
+    padding: 0 0.5rem; /*Espaçamento interno*/
 }
 
 .btn-slide > .botaoNavegacao {
-    display: flex;
-    background-color: #fffcfd;
-    align-items: center;
-    border: none;
-    width: 40px;
-    height: 50px;
-    opacity: 0.3;
-    cursor: pointer; 
+    cursor: pointer;
+    color: #474747;
+    transition: color 0.3s ease;
+    height: 1.5rem;
 }
 
-
-
-
-
-
-
+.btn-slide > .botaoNavegacao:hover {
+    color: #C92071;
+}
 
