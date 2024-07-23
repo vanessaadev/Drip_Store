@@ -4,7 +4,7 @@ import './SectionCard.css'
 export function SectionCard() {
     return (
         <>
-            <section>
+            <section className='ContainerSectionCard'>
                 <div className='container-title-card'>
                     Coleções em destaque
                 </div>

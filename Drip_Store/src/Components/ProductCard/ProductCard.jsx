@@ -4,6 +4,7 @@ import '../../App.css'
 import './ProductCard.css'
 
 import { useNavigate } from 'react-router'
+import { Link } from 'react-router-dom'
 
 const tenis = [
     {
@@ -76,7 +77,7 @@ const tenis = [
 export function ProductCard({ quantidadeProdutos }) {
 
     // --------- Navega entre as páginas --------------
-    const navigate =useNavigate()
+    const navigate = useNavigate()
 
     const handClick = () => navigate('/viewProduct')
     //-------------------------------------------------
@@ -84,12 +85,12 @@ export function ProductCard({ quantidadeProdutos }) {
     const produtosParaMostrar = tenis.slice(0, quantidadeProdutos);
 
     return (
-        <section className='prodCard' onClick={handClick}>
+        <section className='prodCard'>
             <div className='first'>
                 <h2>Produtos em alta</h2>
-                <a href="#">Ver todos <img src={ArrowRight} alt="" /></a>
+                <Link to='/products'>Ver todos <img src={ArrowRight} alt="" /></Link>
             </div>
-            <div className='second'>
+            <div className='second'  onClick={handClick}>
                 {produtosParaMostrar.map((produto, index) => (
                     <div key={index}>
                         <div><img src={produto.image} alt="" /></div>

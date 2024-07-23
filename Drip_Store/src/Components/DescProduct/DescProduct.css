@@ -5,8 +5,6 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
-
 .caminhoTenis h5 {
     margin: 1rem 0;
     color: #474747;
@@ -23,8 +21,6 @@
     margin: 0 8rem;
     gap: 1rem;
 }
-
-
 
 .dadosProduto {
     display: flex;
@@ -46,12 +42,12 @@
 
 .imagemGrande img {
     width: 528px;
-    background-color: #E2E3FF;
 }
 
 .miniImagens {
     display: flex;
     justify-content: space-between;
+    margin-top: 1rem;
 }
 
 .miniImagens img {
@@ -124,15 +120,35 @@
     list-style-type: none;
 }
 
-.descricaoProduto button {
+.btn-comprar {
     border: none;
     border-radius: 5px;
     color: white;
     font-size: 1.2rem;
     padding: 10px 3rem;
     background-color: #F6AA1C;
+    cursor: pointer;
 }
 
+.btn-slide {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 460px;
+    top: 50%;
+}
+
+.btn-slide > .botaoNavegacao {
+    display: flex;
+    background-color: #fffcfd;
+    align-items: center;
+    border: none;
+    width: 40px;
+    height: 50px;
+    opacity: 0.3;
+    cursor: pointer; 
+}
 
 
 
