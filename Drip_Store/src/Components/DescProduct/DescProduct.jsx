@@ -36,7 +36,6 @@ export function DescProduct() {
             </div>
 
             <div className='descricaoProduto'>
-
                 <div className='imgDescProd'>
                     <div className='imagemGrande' style={{ backgroundColor: coresFundo[indiceCor].cor }}>
                         <img src={Tenis1} alt="" />
@@ -48,10 +47,7 @@ export function DescProduct() {
                             {/* <img className="botaoNavegacao" src={ChevronLeft} onClick={anteriorCor}/> */}
                             {/* <img className="botaoNavegacao" src={ChevronRight} onClick={proximaCor}/> */}
                         </div>
-
                     </div>
-
-                    
 
                     {/* Miniaturas de imagens (alteram o slide de cor) */}
                     <div className='miniImagens'>
@@ -59,9 +55,6 @@ export function DescProduct() {
                             <img key={index} onClick={() => setIndiceCor(index)} src={Tenis1} className={`item${index + 1}`} alt="" />
                         ))}
                     </div>
-
-                    
-                    
                 </div>
 
                 <div className='dadosProduto'>
