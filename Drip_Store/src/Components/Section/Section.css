@@ -43,6 +43,12 @@ section>.main>.f>picture > img {
     height: 64px;
 }
 
-.f picture img:hover {
-    color: red;
+.f img {
+    /* transition: color 2s ease; */
+    transition: opacity 0.3s ease;
+}
+
+.f img:hover {
+    /* color: red; */
+    filter: hue-rotate(120deg);
 }

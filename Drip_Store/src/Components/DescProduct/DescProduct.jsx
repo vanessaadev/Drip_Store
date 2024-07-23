@@ -3,6 +3,10 @@ import React, { useState } from 'react';
 import Star from '../Stars/Stars';
 import { FaStar } from 'react-icons/fa';
 import ColorShoes from '../ColorsShoes/ColorsShoes';
+import ChevronRight from '../../assets/arrow-right.svg'
+import ChevronLeft from '../../assets/arrow-left.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 
 import Tenis1 from '../../../public/TenisSlide.svg';
 
@@ -32,17 +36,17 @@ export function DescProduct() {
             </div>
 
             <div className='descricaoProduto'>
-
                 <div className='imgDescProd'>
                     <div className='imagemGrande' style={{ backgroundColor: coresFundo[indiceCor].cor }}>
                         <img src={Tenis1} alt="" />
 
                         {/* Botões de navegação */}
                         <div className='btn-slide'>
-                            <button className="botaoNavegacao " onClick={anteriorCor}></button>
-                            <button className="botaoNavegacao " onClick={proximaCor}></button>
+                            <FontAwesomeIcon icon={faChevronLeft} className="botaoNavegacao" onClick={anteriorCor} />
+                            <FontAwesomeIcon icon={faChevronRight} className="botaoNavegacao" onClick={proximaCor} />
+                            {/* <img className="botaoNavegacao" src={ChevronLeft} onClick={anteriorCor}/> */}
+                            {/* <img className="botaoNavegacao" src={ChevronRight} onClick={proximaCor}/> */}
                         </div>
-
                     </div>
 
                     {/* Miniaturas de imagens (alteram o slide de cor) */}
