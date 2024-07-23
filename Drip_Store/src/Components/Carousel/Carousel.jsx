@@ -9,59 +9,62 @@ import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
+import { ButtonRosa } from "../ButtonRosa/ButtonRosa"
 
 export function Carousel() {
     return(
         <>
-            <Swiper 
-                loop={true}
-                slidesPerView={1}
-                pagination={{ clickable: true }}
-                navigation={false}
-            >
-                <SwiperSlide className="SwiperSlide">
-                    <div className="slideGroup">
-                    <div className="infoSlide">
-                        <h5>Melhores Ofertas Personalizadas</h5>
-                        <h1>Queima de Estoque Nike 🔥</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, similique.</p>
-                        <button>Ver Ofertas</button>  
-                    </div>
-                    <div>
-                        <img src="public/TenisSlide.svg" className="slide-image" />
-                    </div>
-                    </div>
-                    
-                </SwiperSlide>
-                <SwiperSlide className="SwiperSlide">
-                    <div className="slideGroup">
-                    <div className="infoSlide">
-                        <h5>Melhores Ofertas Personalizadas</h5>
-                        <h1>Queima de Estoque Nike 🔥</h1>
-                        <p className="textResponsividade">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, similique.</p>
-                        <button>Ver Ofertas</button>  
-                    </div>
-                    <div>
-                        <img src="public/TenisSlide.svg" className="slide-image" />
-                    </div>
-                    </div>
-                    
-                </SwiperSlide>
-                <SwiperSlide className="SwiperSlide">
-                    <div className="slideGroup">
-                    <div className="infoSlide">
-                        <h5>Melhores Ofertas Personalizadas</h5>
-                        <h1>Queima de Estoque Nike 🔥</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, similique.</p>
-                        <button>Ver Ofertas</button>  
-                    </div>
-                    <div>
-                        <img src="public/TenisSlide.svg" className="slide-image" />
-                    </div>
-                    </div>
-                    
-                </SwiperSlide>
-            </Swiper>
+            {/* <section> */}
+                <Swiper
+                    loop={true}
+                    slidesPerView={1}
+                    pagination={{ clickable: true }}
+                    navigation={false}
+                >
+                    <SwiperSlide className="SwiperSlide">
+                        <div className="slideGroup">
+                        <div className="infoSlide">
+                            <h5>Melhores Ofertas Personalizadas</h5>
+                            <h1>Queima de Estoque Nike 🔥</h1>
+                            <p className="textResponsive">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, similique.</p>
+                            <ButtonRosa/>
+                        </div>
+                        <div>
+                            <img src="public/TenisSlide.svg" className="slide-image" />
+                        </div>
+                        </div>
+                
+                    </SwiperSlide>
+                    <SwiperSlide className="SwiperSlide">
+                        <div className="slideGroup">
+                        <div className="infoSlide">
+                            <h5>Melhores Ofertas Personalizadas</h5>
+                            <h1>Queima de Estoque Nike 🔥</h1>
+                            <p className="textResponsive">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, similique.</p>
+                            <ButtonRosa/>
+                        </div>
+                        <div>
+                            <img src="public/TenisSlide.svg" className="slide-image" />
+                        </div>
+                        </div>
+                
+                    </SwiperSlide>
+                    <SwiperSlide className="SwiperSlide">
+                        <div className="slideGroup">
+                        <div className="infoSlide">
+                            <h5>Melhores Ofertas Personalizadas</h5>
+                            <h1>Queima de Estoque Nike 🔥</h1>
+                            <p className="textResponsive">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, similique.</p>
+                            <ButtonRosa/>
+                        </div>
+                        <div>
+                            <img src="public/TenisSlide.svg" className="slide-image" />
+                        </div>
+                        </div>
+                
+                    </SwiperSlide>
+                </Swiper>
+            {/* </section> */}
         </>
     )
 }

@@ -59,14 +59,3 @@ h2{
 .lorem-text {
     color: #474747;
 }
-
-.btn-ofert {
-    width: 200px;
-    height: 40px;
-    border: none;
-    border-radius: 8px;
-    background-color: #C92071;
-    color: #fffbfb ;
-    font-size: 15px;
-    cursor: pointer;
-}
