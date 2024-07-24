@@ -4,41 +4,42 @@ import './SectionCard.css'
 export function SectionCard() {
     return (
         <>
-            <section className='ContainerSectionCard'>
-                <div className='container-title-card'>
-                    Coleções em destaque
-                </div>
-                <div className='container-collection'>
-                    <div className='collection-1'>
-                        <div className='oferta'>
-                            30% OFF
-                        </div>
-                        <div>
-                            <h3>Novo Drop Supreme</h3>
-                        </div>
-                        <ButtonCard/>
+            <div className='color-bg'>
+                <section className='ContainerSectionCard'>
+                    <div className='container-title-card'>
+                        Coleções em destaque
                     </div>
-                    <div className='collection-2'>
-                        <div className='oferta'>
-                            30% OFF
+                    <div className='container-collection'>
+                        <div className='collection-1'>
+                            <div className='oferta'>
+                                30% OFF
+                            </div>
+                            <div>
+                                <h3>Novo Drop Supreme</h3>
+                            </div>
+                            <ButtonCard/>
                         </div>
-                        <div>
-                            <h3>Coleção Adidas</h3>
+                        <div className='collection-2'>
+                            <div className='oferta'>
+                                30% OFF
+                            </div>
+                            <div>
+                                <h3>Coleção Adidas</h3>
+                            </div>
+                            <ButtonCard/>
                         </div>
-                        <ButtonCard/>
+                        <div className='collection-3'>
+                            <div className='oferta'>
+                                30% OFF
+                            </div>
+                            <div>
+                                <h3>Novo Beat Bass</h3>
+                            </div>
+                            <ButtonCard/>
+                        </div>
                     </div>
-                    <div className='collection-3'>
-                        <div className='oferta'>
-                            30% OFF
-                        </div>
-                        <div>
-                            <h3>Novo Beat Bass</h3>
-                        </div>
-                        <ButtonCard/>
-                    </div>
-                </div>
-
-            </section>
+                </section>
+            </div>
 
         </>
     )

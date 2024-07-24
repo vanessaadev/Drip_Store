@@ -72,7 +72,7 @@ const tenis = [
     },
 
 
-]; 
+];
 
 export function ProductCard({ quantidadeProdutos }) {
 
@@ -81,29 +81,31 @@ export function ProductCard({ quantidadeProdutos }) {
 
     const handClick = () => navigate('/viewProduct')
     //-------------------------------------------------
-    
+
     const produtosParaMostrar = tenis.slice(0, quantidadeProdutos);
 
     return (
-        <section className='prodCard'>
-            <div className='first'>
-                <h2>Produtos em alta</h2>
-                <Link to='/products'>Ver todos <img src={ArrowRight} alt="" /></Link>
-            </div>
-            <div className='second'  onClick={handClick}>
-                {produtosParaMostrar.map((produto, index) => (
-                    <div key={index}>
-                        <div><img src={produto.image} alt="" /></div>
-                        <p>{produto.nome}</p>
-                        <h3>{produto.descricao}</h3>
-                        <div className='prices'>
-                            <p className='price'>{produto.preco}</p>
-                            <p className='priceDisc'>{produto.desconto}</p>
+        <div className='color-bg'>
+            <section className='prodCard'>
+                <div className='first'>
+                    <h2>Produtos em alta</h2>
+                    <Link to='/products'>Ver todos <img src={ArrowRight} alt="" /></Link>
+                </div>
+                <div className='second' onClick={handClick}>
+                    {produtosParaMostrar.map((produto, index) => (
+                        <div key={index}>
+                            <div><img src={produto.image} alt="" /></div>
+                            <p>{produto.nome}</p>
+                            <h3>{produto.descricao}</h3>
+                            <div className='prices'>
+                                <p className='price'>{produto.preco}</p>
+                                <p className='priceDisc'>{produto.desconto}</p>
+                            </div>
                         </div>
-                    </div>
-                ))}
-            </div>
-        </section>
+                    ))}
+                </div>
+            </section>
+        </div>
     );
 }
 
