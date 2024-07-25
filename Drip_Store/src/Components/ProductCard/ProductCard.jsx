@@ -10,14 +10,7 @@ const tenis = [
     {
         nome: 'Tênis',
         descricao: 'K-Swiss V8 - Masculino',
-        preco: '$200',
-        desconto: '$100',
-        image: TenisCard
-    },
-
-    {
-        nome: 'Tênis',
-        descricao: 'K-Swiss V8 - Masculino',
+        descPorc: '30% OFF',
         preco: '$200',
         desconto: '$100',
         image: TenisCard
@@ -51,7 +44,6 @@ const tenis = [
     {
         nome: 'Tênis',
         descricao: 'K-Swiss V8 - Masculino',
-        descPorc: '30% OFF',
         preco: '$200',
         desconto: '$100',
         image: TenisCard
@@ -68,14 +60,21 @@ const tenis = [
     {
         nome: 'Tênis',
         descricao: 'K-Swiss V8 - Masculino',
-        descPorc: '30% OFF',
+        preco: '$200',
+        desconto: '$100',
+        image: TenisCard
+    },
+
+    {
+        nome: 'Tênis',
+        descricao: 'K-Swiss V8 - Masculino',
         preco: '$200',
         desconto: '$100',
         image: TenisCard
     },
 
 
-]; 
+];
 
 export function ProductCard({ quantidadeProdutos }) {
 
@@ -97,7 +96,10 @@ export function ProductCard({ quantidadeProdutos }) {
                 <div className='second' onClick={handClick}>
                     {produtosParaMostrar.map((produto, index) => (
                         <div key={index}>
-                            <div><img src={produto.image} alt="" /></div>
+                            <div>
+                                <img src={produto.image} alt="" />
+                                <p className='descPorc'>{produto.descPorc}</p>
+                            </div>
                             <p>{produto.nome}</p>
                             <h3>{produto.descricao}</h3>
                             <div className='prices'>
