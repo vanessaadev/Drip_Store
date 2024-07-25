@@ -9,15 +9,19 @@ export function ProductPage() {
         <>
             <div className='bg-color'>
                 <section>
-                        <div className='filter-option'>
-                            <p>
-                                <span>Resultados para "Tênis" </span>- 369 produtos
-                            </p>
-                            <button>
-                                Ordernar por<span>: mais relevantes</span>
-                                <img src={ArrowBottom} alt="" />
-                            </button>
+                    <div className='filter-option'>
+                        <p>
+                            <span>Resultados para "Tênis" </span>- 369 produtos
+                        </p>
+                        <div class="ordenar-por">
+                            <span>Ordenar por:</span>
+                            <select id="ordenacao" name="ordenacao">
+                                <option value="menor-preco">Mais relevantes</option>
+                                <option value="menor-preco">Menor preço</option>
+                                <option value="maior-preco">Maior preço</option>
+                            </select>
                         </div>
+                    </div>
                     <div className='div-geral'>
                         <div className='filter'>
                             <p>Filtrar por</p>
@@ -25,7 +29,7 @@ export function ProductPage() {
                             <p>Marka</p>
                             <form>
                                 <div>
-                                    <input type="checkbox" checked/>
+                                    <input type="checkbox" checked />
                                     <label htmlFor="">Adidas</label>
                                 </div>
                                 <div>
@@ -33,7 +37,7 @@ export function ProductPage() {
                                     <label htmlFor="">Calenciaga</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" checked/>
+                                    <input type="checkbox" checked />
                                     <label htmlFor="">K-Swiss</label>
                                 </div>
                                 <div>
@@ -48,7 +52,7 @@ export function ProductPage() {
                             <p>Categoria</p>
                             <form>
                                 <div>
-                                    <input type="checkbox" checked/>
+                                    <input type="checkbox" checked />
                                     <label htmlFor="">Esporte e lazer</label>
                                 </div>
                                 <div>
@@ -67,7 +71,7 @@ export function ProductPage() {
                             <p>Gênero</p>
                             <form>
                                 <div>
-                                    <input type="checkbox" checked/>
+                                    <input type="checkbox" checked />
                                     <label htmlFor="">Masculino</label>
                                 </div>
                                 <div>
@@ -81,7 +85,7 @@ export function ProductPage() {
                             </form>
                             <p>Estado</p>
                             <div>
-                                <input type="radio" checked/>
+                                <input type="radio" checked />
                                 <label htmlFor="">Novo</label>
                             </div>
                             <div>
