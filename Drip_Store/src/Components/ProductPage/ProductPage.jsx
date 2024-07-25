@@ -13,10 +13,15 @@ export function ProductPage() {
                         <p>
                             <span>Resultados para "Tênis" </span>- 369 produtos
                         </p>
-                        <button>
-                            Ordernar por<span>: mais relevantes</span>
-                            <img src={ArrowBottom} alt="" />
-                        </button>
+
+                        <div class="ordenar-por">
+                            <span>Ordenar por:</span>
+                            <select id="ordenacao" name="ordenacao">
+                                <option value="menor-preco">Mais relevantes</option>
+                                <option value="menor-preco">Menor preço</option>
+                                <option value="maior-preco">Maior preço</option>
+                            </select>
+                        </div>
                     </div>
                 <div className='div-geral'>
                     <div className='filter'>
