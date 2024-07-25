@@ -51,6 +51,7 @@ section{
 
 .filter > hr {
     margin: 1.7rem 0;
+    background: var(--light-gray-2);
 }
 
 .filter > p {
@@ -97,6 +98,7 @@ section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 6rem;
 }
 
 .cards {
