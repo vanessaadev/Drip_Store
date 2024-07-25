@@ -7,7 +7,7 @@ section {
 }
 
 .color-bg {
-    padding: 5rem 0;
+    padding: 5rem 0 1rem 0;
     background: var(--light-gray-3);
 }
 
@@ -49,12 +49,17 @@ section>.main>.f>picture > img {
     height: 64px;
 }
 
-.f img {
-    /* transition: color 2s ease; */
+/* .f img {
+    transition: color 2s ease; 
     transition: opacity 0.3s ease;
-}
-
+} */
+/* 
 .f img:hover {
-    /* color: red; */
+     color: red; 
     filter: hue-rotate(120deg);
+} */
+
+
+.f picture img:hover {
+    filter: invert(50%) sepia(90%) saturate(7000%) hue-rotate(319deg) brightness(78%) contrast(97%);
 }
