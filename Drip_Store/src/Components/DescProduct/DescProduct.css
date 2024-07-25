@@ -5,14 +5,8 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.color-background {
-    background-color: var(--light-gray-3);
-}
-
-
-
 .caminhoTenis h5 {
-    padding: 1rem 0;
+    margin: 1rem 0;
     color: #474747;
 }
 
@@ -89,6 +83,7 @@
 .referenciasProduto {
     font-size: 0.8rem;
     color: #666666;
+    margin: 5px 0 0 0;
 }
 
 .avaliacao {
@@ -109,25 +104,6 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
-}
-
-.tamanhoItem {
-    color: #474747;
-    font-size: 1.2rem;
-    border: 1px solid #CCCCCC;
-    border-radius: 5px;
-    padding: 0.9rem;
-    transition: 0.2s;
-    cursor: pointer;
-}
-
-.tamanhoItem:hover {
-    color: white;
-    background-color: #C92071;
-}
-
-.semList {
-    list-style-type: none;
 }
 
 .btn-comprar {
