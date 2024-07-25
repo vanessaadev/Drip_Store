@@ -5,8 +5,14 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.color-background {
+    background-color: var(--light-gray-3);
+}
+
+
+
 .caminhoTenis h5 {
-    margin: 1rem 0;
+    padding: 1rem 0;
     color: #474747;
 }
 
