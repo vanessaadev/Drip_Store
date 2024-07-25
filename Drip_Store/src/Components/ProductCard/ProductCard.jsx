@@ -26,6 +26,7 @@ const tenis = [
     {
         nome: 'Tênis',
         descricao: 'K-Swiss V8 - Masculino',
+        descPorc: '30% OFF',
         preco: '$200',
         desconto: '$100',
         image: TenisCard
@@ -50,6 +51,7 @@ const tenis = [
     {
         nome: 'Tênis',
         descricao: 'K-Swiss V8 - Masculino',
+        descPorc: '30% OFF',
         preco: '$200',
         desconto: '$100',
         image: TenisCard
@@ -66,13 +68,14 @@ const tenis = [
     {
         nome: 'Tênis',
         descricao: 'K-Swiss V8 - Masculino',
+        descPorc: '30% OFF',
         preco: '$200',
         desconto: '$100',
         image: TenisCard
     },
 
 
-];
+]; 
 
 export function ProductCard({ quantidadeProdutos }) {
 
