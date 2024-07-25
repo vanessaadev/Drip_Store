@@ -1,7 +1,6 @@
 import './ProductPage.css'
 import ArrowBottom from '../../assets/arrow-bottom.svg'
 import TenisCard from '../../assets/tenisCard.svg'
-import ProductCard from '../ProductCard/ProductCard'
 
 
 export function ProductPage() {

@@ -1,14 +1,12 @@
-import Header from "../../Components/Header/Header";
 import { ProductPage } from "../../Components/ProductPage/ProductPage";
-import { Footer } from "../../Components/Footer/Footer"
-import ProductCard from "../../Components/ProductCard/ProductCard";
+import Layout from "../Layout/Layout";
 
 export function ProductListingPage() {
     return (
         <>
-        <Header/>
-        <ProductPage/>
-        <Footer/>
+            <Layout>
+                <ProductPage />
+            </Layout>
         </>
     )
 }
