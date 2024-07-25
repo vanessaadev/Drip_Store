@@ -88,3 +88,21 @@
     color: #8F8F8F;
     text-decoration: line-through;
 }
+
+.descPorc {
+    position: relative;
+    background-color: #E7FF86;
+    max-width: 24%;
+    border-radius: 20px;
+    color: #474747 !important;
+    font-size: 0.8rem !important;
+    bottom: 19em;
+    left: 0.5em;
+    padding-left: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.second > img {
+    position: absolute;
+}
