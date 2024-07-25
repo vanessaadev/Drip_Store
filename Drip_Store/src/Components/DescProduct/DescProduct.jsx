@@ -7,6 +7,7 @@ import ChevronRight from '../../assets/arrow-right.svg'
 import ChevronLeft from '../../assets/arrow-left.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import SizeButtonShoes from '../SizeButtonShoes/SizeButtonShoes';
 
 import Tenis1 from '../../../public/TenisSlide.svg';
 
@@ -73,11 +74,7 @@ export function DescProduct() {
                     <h4 className='referenciasProduto'>Tamanho</h4>
 
                     <div className='tamanhoSapato'>
-                        <li className='tamanhoItem semList'>39</li>
-                        <li className='tamanhoItem semList'>40</li>
-                        <li className='tamanhoItem semList'>41</li>
-                        <li className='tamanhoItem semList'>42</li>
-                        <li className='tamanhoItem semList'>43</li>
+                        <SizeButtonShoes/>
                     </div>
 
                     <h4 className='referenciasProduto'>Cores</h4>
