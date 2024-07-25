@@ -11,8 +11,8 @@ export function HomePage() {
         <>
             <Layout>
                 <Carousel />
-                <Section />
                 <SectionCard />
+                <Section />
                 <ProductCard />
                 <SectionOfert />
             </Layout>
