@@ -24,6 +24,10 @@
     padding-bottom: 2px;
 } 
 
-.navbar > ul > li> a:active {
+.navbar > ul > li > a.active {
     color: #C92071;
+    font-weight: bold;
+    border-bottom: 3px solid #C92071;
+    padding-bottom: 2px;
 }
+

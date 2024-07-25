@@ -118,6 +118,114 @@ export function ProductPage() {
                                     <p className='priceDisc'>$100</p>
                                 </div>
                             </div>
+                            <div>
+                                <div><img src={TenisCard} alt="" /></div>
+                                <p>Tênis</p>
+                                <h3>K-Swiss V8 - Masculino</h3>
+                                <div className='prices'>
+                                    <p className='price'>$200</p>
+                                    <p className='priceDisc'>$100</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div><img src={TenisCard} alt="" /></div>
+                                <p>Tênis</p>
+                                <h3>K-Swiss V8 - Masculino</h3>
+                                <div className='prices'>
+                                    <p className='price'>$200</p>
+                                    <p className='priceDisc'>$100</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div><img src={TenisCard} alt="" /></div>
+                                <p>Tênis</p>
+                                <h3>K-Swiss V8 - Masculino</h3>
+                                <div className='prices'>
+                                    <p className='price'>$200</p>
+                                    <p className='priceDisc'>$100</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div><img src={TenisCard} alt="" /></div>
+                                <p>Tênis</p>
+                                <h3>K-Swiss V8 - Masculino</h3>
+                                <div className='prices'>
+                                    <p className='price'>$200</p>
+                                    <p className='priceDisc'>$100</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div><img src={TenisCard} alt="" /></div>
+                                <p>Tênis</p>
+                                <h3>K-Swiss V8 - Masculino</h3>
+                                <div className='prices'>
+                                    <p className='price'>$200</p>
+                                    <p className='priceDisc'>$100</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div><img src={TenisCard} alt="" /></div>
+                                <p>Tênis</p>
+                                <h3>K-Swiss V8 - Masculino</h3>
+                                <div className='prices'>
+                                    <p className='price'>$200</p>
+                                    <p className='priceDisc'>$100</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div><img src={TenisCard} alt="" /></div>
+                                <p>Tênis</p>
+                                <h3>K-Swiss V8 - Masculino</h3>
+                                <div className='prices'>
+                                    <p className='price'>$200</p>
+                                    <p className='priceDisc'>$100</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div><img src={TenisCard} alt="" /></div>
+                                <p>Tênis</p>
+                                <h3>K-Swiss V8 - Masculino</h3>
+                                <div className='prices'>
+                                    <p className='price'>$200</p>
+                                    <p className='priceDisc'>$100</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div><img src={TenisCard} alt="" /></div>
+                                <p>Tênis</p>
+                                <h3>K-Swiss V8 - Masculino</h3>
+                                <div className='prices'>
+                                    <p className='price'>$200</p>
+                                    <p className='priceDisc'>$100</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div><img src={TenisCard} alt="" /></div>
+                                <p>Tênis</p>
+                                <h3>K-Swiss V8 - Masculino</h3>
+                                <div className='prices'>
+                                    <p className='price'>$200</p>
+                                    <p className='priceDisc'>$100</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div><img src={TenisCard} alt="" /></div>
+                                <p>Tênis</p>
+                                <h3>K-Swiss V8 - Masculino</h3>
+                                <div className='prices'>
+                                    <p className='price'>$200</p>
+                                    <p className='priceDisc'>$100</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div><img src={TenisCard} alt="" /></div>
+                                <p>Tênis</p>
+                                <h3>K-Swiss V8 - Masculino</h3>
+                                <div className='prices'>
+                                    <p className='price'>$200</p>
+                                    <p className='priceDisc'>$100</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
