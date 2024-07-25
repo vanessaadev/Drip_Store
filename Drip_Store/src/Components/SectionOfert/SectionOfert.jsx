@@ -1,11 +1,22 @@
 import './SectionOfert.css'
 import { ButtonRosa } from "../ButtonRosa/ButtonRosa"
-
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import sapato from '../../../public/sapato.png'
 import fundo_sapato from '../../../public/fundo_sapato.png'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 export function SectionOfert() {
+
+    function ScrollTop() {
+        const {pathname} = useLocation();
+
+        useEffect(() => {
+            window.scrollTo(0,0);
+        }, [pathname]);
+        return null
+    };
+
     return(
         <>
         <div className='container-ofert'>
@@ -29,9 +40,9 @@ export function SectionOfert() {
 
                 <span className='lorem-text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi sed ad accusantium suscipit, fugit assumenda rerum. Labore officiis voluptates repellendus illum nisi odio, quod vero pariatur quis iste saepe exercitationem.</span>
 
-                <Link to='/viewProduct'>
+                <NavLink to='/viewProduct' onClick={ScrollTop}>
                 <ButtonRosa/>
-                </Link>
+                </NavLink>
 
             </div>
 
