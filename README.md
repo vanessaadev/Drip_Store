@@ -2,8 +2,6 @@
 ![Badge](https://img.shields.io/badge/Versão-1.0_-blue)
 
 
-<img src="../Drip_Store/public/Site.png">
-
 # Descrição do Projeto  
 Drip Store é uma loja de sapatos esportivos desenvolvido inicialmente com o front-end, utilizando React com Javascript. O projeto tem como objetivo de aplicar os conhecimentos adqueridos na formação do curso Desenvolvimento Web Full Stack, ofertado pelo o Governo do Estado do Ceará com parceira da escola Digital College.
 
@@ -182,12 +180,4 @@ Drip Store é uma loja de sapatos esportivos desenvolvido inicialmente com o fro
 | :--------------------------------------------------------------------------------------------------: | :------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |     [<img src="https://avatars.githubusercontent.com/u/146147231?v=4" height="90px">](https://github.com/souzadevofic)     |   Alisson Silva de Souza       |                                                                                                                                                                                                                                  
 | [<img src="https://avatars.githubusercontent.com/u/88554119?v=4" height="90px">](https://github.com/vanessaadev) |   Vanessa de Araujo do Nascimento   |
-|   [<img src="https://avatars.githubusercontent.com/u/172999556?v=4" height="90px">](https://github.com/DevRDone)   | Ronold da Costa Oliveira |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-
-
-                                                      
-
-
-
-
-
+|   [<img src="https://avatars.githubusercontent.com/u/172999556?v=4" height="90px">](https://github.com/DevRDone)   | Ronald da Costa Oliveira |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
