@@ -19,22 +19,19 @@ Drip Store é uma loja de sapatos esportivos desenvolvido inicialmente com o fro
 
 
 
-## Organização de Pastas
+## Arquitetutura das Pastas
 
 ```
-├── .vscode/
-│    ├── settings.json
-│
-├── public/
-│
-│    ├── IMG/
-│    │
-│    │    ├── collection-images/
+|    ├── .Drip_Store
+|    |    ├── public/
+│    |    |
 │    │    │   ├── collection-1.png
 │    │    │   ├── collection-2.png
 │    │    │   ├── collection-3.png
-│    │    │
-│    │    ├── home-images/
+│    │    │   ├── collection1.png
+│    │    │   ├── collection2.png
+│    │    │   ├── collection3.png
+│    │    │   ├── fundo_sapato.png
 │    │    │   ├── home-slide-1.jpeg
 │    │    │   ├── home-slide-2.jpeg
 │    │    │   ├── home-slide-3.jpeg
@@ -43,28 +40,23 @@ Drip Store é uma loja de sapatos esportivos desenvolvido inicialmente com o fro
 │    │    │   ├── home-slide-6.jpeg
 │    │    │   ├── home-slide-7.jpeg
 │    │    │   ├── home-slide-8.jpeg
-│    │    │
-│    │    ├── product-images/
 │    │    │   ├── product-image-1.jpeg
 │    │    │   ├── product-image-2.jpeg
 │    │    │   ├── product-image-3.jpeg
 │    │    │   ├── product-image-4.jpeg
 │    │    │   ├── product-image-5.jpeg
-│    │    │
-│    │    ├── product-thumb-images/
 │    │    │   ├── product-thumb-1.jpeg
 │    │    │   ├── product-thumb-2.jpeg
 │    │    │   ├── product-thumb-3.jpeg
 │    │    │   ├── product-thumb-4.jpeg
 │    │    │   ├── product-thumb-5.jpeg
-│    │    │
-│    │    ├── White-Sneaker.png
+│    │    │   ├── sapato.png
+│    │    │   ├── Site.png
+│    │    │   ├── TenisSlide.svg
 │    │
+|    |── src/
 │    │
-│    ├── styles/
-│    │    default.css
-│    │
-│    ├── svgs/
+│    ├── asserts/
 │    │    ├── arrow-right.svg
 │    │    ├── blusaE.svg
 │    │    ├── calça.svg
@@ -84,8 +76,6 @@ Drip Store é uma loja de sapatos esportivos desenvolvido inicialmente com o fro
 │    │    ├── star-white.svg
 │    │    ├── teniss.svg
 │    │    ├── twitter.svg
-│
-├── src/
 │
 │    ├── components/
 │    │
@@ -173,12 +163,15 @@ Drip Store é uma loja de sapatos esportivos desenvolvido inicialmente com o fro
 │    │
 │    ├── routes/
 │    │    ├── AppRoutes.jsx
-│    │
+│    │    
+│    ├── App.css
 │    ├── App.jsx
 │    ├── main.jsx
 │
 ├── .eslintrc.cjs
 ├── .gitignore
+├── .image-1.png
+├── .image.png
 ├── helper.md
 ├── index.html
 ├── package-lock.json
