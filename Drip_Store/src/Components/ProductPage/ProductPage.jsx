@@ -15,6 +15,11 @@ export function ProductPage() {
 
     // Cria um array com 15 elementos iguais ao objeto tenis
     const tenisArray = Array(15).fill(tenis);
+
+    // --------- Navega entre as páginas --------------
+    const navigate = useNavigate()
+
+    const handClick = () => navigate('/viewProduct')
     
     return (
         <>
@@ -104,7 +109,7 @@ export function ProductPage() {
                                 <label htmlFor="">Usado</label>
                             </div>
                         </div>
-                        <div className='cards'>
+                        <div className='cards' onClick={handClick}>
                             {tenisArray.map((item, index) => (
                                 <div key={index}>
                                     <div><img src={item.image} alt={item.nome} /></div>
