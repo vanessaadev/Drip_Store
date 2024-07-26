@@ -2,6 +2,8 @@ import './ProductPage.css'
 import ArrowBottom from '../../assets/arrow-bottom.svg'
 import TenisCard from '../../assets/tenisCard.svg'
 
+import { useNavigate } from 'react-router'
+
 
 export function ProductPage() {
     const tenis = {
