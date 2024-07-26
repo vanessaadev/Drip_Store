@@ -19,7 +19,7 @@ Drip Store é uma loja de sapatos esportivos desenvolvido inicialmente com o fro
 
 
 
-## Organização de Pastas
+## Arquitetutura das Pastas
 
 ```
 |    ├── .Drip_Store
