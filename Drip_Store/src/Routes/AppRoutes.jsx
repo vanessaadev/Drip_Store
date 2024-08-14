@@ -3,6 +3,7 @@ import { HomePage } from '../Pages/HomePage/HomePage'
 import { ProductListingPage } from '../Pages/ProductListingPage/ProductListingPage'
 import { ProductViewPage } from '../Pages/ProductViewPage/ProductViewPage'
 import { Login } from "../Pages/Login/Login"
+import { CadUser } from "../Components/CadUser/CadUser"
 
 export function AppRoutes() {
     return(
@@ -11,6 +12,7 @@ export function AppRoutes() {
             <Route path="/products" element={<ProductListingPage/>} /> 
             <Route path="/viewProduct" element={<ProductViewPage/>} /> 
             <Route path="/login" element={<Login/>} />
+            <Route path="/createAccount" element={<CadUser/>} />
         </Routes>
     )
 }
