@@ -5,6 +5,7 @@ import { ProductListingPage } from '../Pages/ProductListingPage/ProductListingPa
 import { ProductViewPage } from '../Pages/ProductViewPage/ProductViewPage'
 import { Login } from "../Pages/Login/Login"
 import { CadUser } from "../Components/CadUser/CadUser"
+import { MyRequestPage } from '../Pages/MyRequestsPage/MyRequestsPage';
 
 export function AppRoutes() {
     return(
@@ -14,6 +15,7 @@ export function AppRoutes() {
             <Route path="/viewProduct" element={<ProductViewPage/>} /> 
             <Route path="/createAccount" element={<CadUser/>} />
             <Route path="/login" element={<Login />} />
+            <Route path='/myorder' element={<MyRequestPage/>} />
         </Routes>
     )
 }

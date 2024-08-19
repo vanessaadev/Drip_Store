@@ -1,0 +1,22 @@
+.my-requests-container {
+    width: 890px;
+    padding: 30px;
+    border-radius: 4px;
+    background-color: #ffffff;
+
+}
+
+.my-request-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-request-header-container > h1 {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.my-request-header-container > span {
+    font-size: 14px;
+}

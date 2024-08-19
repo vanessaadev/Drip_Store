@@ -1,0 +1,6 @@
+.my-request-page-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5%;
+}
